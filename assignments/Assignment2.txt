@@ -1,0 +1,19 @@
+1- order list <ol></ol>
+unorder list  <ul></ul>
+span,use to purpose is to allocate a specific part or word  <span></span>
+mark is used to make  text appear specifically <mark></mark>
+sup is used to make small text appear higher than other text <sup></sup>
+sub  is used to display small text below the normal text <sub></sub>
+small to make the text appear smaller than the sentence size <small></small>
+ins  is used for underlined text <ins></ins>
+h1-h6 the importance of the title <h1></h1> <h6></h6>
+ i is used to display text in italics <i></i>
+
+ 2-href
+ src
+ width and hight
+ alt 
+ style
+ lang
+ title
+ 
