@@ -19,13 +19,49 @@
 
    }
 
+   .container{
+    color: red;
+    border: 2px;
+
+   }
+
 </style>
 
 <title >about us</title>
 
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
 </head>
 
 <body>
+
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="indexpage.html">Home</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contanct us</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="Services.html">OUR SERVICES</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="table.html">OUR TABLE</a>
+             </li>
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+
 
    <p class="h">About on this page</p>
 
@@ -33,13 +69,27 @@
     
    <p id="thick">About page</p> 
    
-   <a href="indexpage.html">The First page
- <!-- <img src="images/img1.jpg" alt="index image" /> -->
-   </a>
-   <br>
-   <a href="Contact.html">Contact With Us</a>
-   <br>
-   <a href="Services.html">Our Services</a>
+
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-3">
+       my frist page
+         </div>
+         <div class="col-lg-3">
+            my Second page
+         </div>
+         <div class="col-lg-3">
+            my third page
+         </div>
+         <div class="col-lg-3">
+            my fourth page
+         </div>
+      </div>
+
+
+   </div>
+
+   <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 
